@@ -1,5 +1,5 @@
 {
-  "name": "tu-proyecto/mi-tienda",
+  "name": "web-vitality",
   "type": "project",
   "repositories": [
     {
@@ -8,6 +8,7 @@
     }
   ],
   "require": {
+    "johnpbloch/wordpress": "6.7.*",
     "wpackagist-plugin/woocommerce": "8.0.*",
     "wpackagist-plugin/woocommerce-gateway-stripe": "9.3.*",
     "wpackagist-plugin/complianz-gdpr": "7.3.*",
@@ -16,5 +17,11 @@
   },
   "extra": {
     "wordpress-install-dir": "wp"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true
+    }
   }
 }
