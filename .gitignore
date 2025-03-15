@@ -1,0 +1,21 @@
+# WordPress core
+wp-admin/
+wp-includes/
+wp-*.php
+
+wp-config.php
+.env
+
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-*
+*.log
+*.sql
+
+node_modules/
+vendor/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
