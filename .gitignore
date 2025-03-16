@@ -2,7 +2,7 @@
 wp-admin/
 wp-includes/
 wp-*.php
-
+wp
 wp-config.php
 .env
 
